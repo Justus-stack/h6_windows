@@ -19,12 +19,24 @@ Päivitetään winrepo
 
 ![kuva4](images/kuva4.png)
 
+Kokeilin asentaa rikurikurikun ohjeessa olevan vlc media playerin hänen käyttämällään komennolla sudo salt 'windows' pkg.install vlc
+
 ![kuva6](images/kuva6.png)
 
-kokeilin vielä asentaa jotain uutta Joten päätin asentaa firefoxin windowsille. Löysin komennon firefoxin asennukselle rikurikurikun raportissa olevan [Linkin takaa.]https://docs.saltproject.io/en/latest/topics/windows/windows-package-manager.html)
+Asennus ja sovellus toimi moitteitta.
+
+kokeilin vielä asentaa jotain uutta Joten päätin asentaa firefoxin windowsille. Löysin komennon firefoxin asennukselle rikurikurikun raportissa olevan [Linkin takaa.](https://docs.saltproject.io/en/latest/topics/windows/windows-package-manager.html)
 
   salt 'windows' pkg.install firefox_x64
   
 ![kuva7](images/kuva7.png)
 
 ![kuva5](images/kuva5.png)
+
+## Lähteet
+
+https://repo.saltstack.com/#windows
+
+https://docs.saltproject.io/en/latest/topics/windows/windows-package-manager.html
+
+https://github.com/rikurikurikuriku/Palvelinten-hallinta/wiki/H5-Aikajana#b-windows-pakettivarasto-ja-vs
